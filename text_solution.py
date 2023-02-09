@@ -11,7 +11,7 @@ class Car:
 
     def show_info(self):
         z = input()
-        if z == "Хэтчбэк":
+        if z == "Хэтчбек":
             print("Вам подойдет автомобиль класса:", car_c.__class__.__name__)
             print("Модель: A-Класс")
             print("Мощность двигателя у данной модели:", AMG.car_inf["A-Класс"], "кВт")
